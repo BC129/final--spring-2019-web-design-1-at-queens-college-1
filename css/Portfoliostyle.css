@@ -1,0 +1,95 @@
+body {
+  background-color: #1F2C39;
+  padding: 0;
+}
+nav {
+   font-family: Lato, sans-serif;
+   font-size: 20px;
+   position: fixed;
+   z-index: 1;
+   height: 70px;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   background-color: #585A61;
+}
+nav > ul {
+   text-align: right;
+   margin-right: 3.125%;
+   list-style-type: none;
+}
+nav> ul > li {
+  width: 12.5%;
+  display: inline-block;
+}
+li:nth-of-type(2) {
+  text-align: center;
+  background-color: #1E2A29;
+  color: #9E9A8F;
+}
+li > a:link {
+  text-decoration: none;
+  padding: 35px;
+  padding-bottom:26px;
+}
+li > a:hover {
+  background-color: #1E2A29;
+  color: #9E9A8F;
+}
+nav + main {
+  margin-top: 120px;
+}
+main > section {
+   display: inline-block;
+ }
+main > section {
+   width: 320px;
+}
+main > div {
+   display: inline-block;
+ }
+main > div {
+   width:480px;
+}
+figure {
+   position: relative;
+}
+
+section > figure > figcaption {
+   position: absolute;
+   bottom: -40px;
+   background-color: #9E9A8F;
+   width: 320px;
+   height: 40px;
+   text-align: center;
+   font-weight: 200;
+   font-size: 12px;
+   line-height: 40px;
+   opacity: 0;
+   transition: 100ms;
+}
+div > figure > figcaption {
+   position: absolute;
+   bottom: -40px;
+   background-color: #9E9A8F;
+   width: 480px;
+   height: 40px;
+   text-align: center;
+   font-weight: 200;
+   font-size: 12px;
+   line-height: 40px;
+   opacity: 0;
+   transition: 100ms;
+}
+
+figure:hover > figcaption {
+   opacity: 1;
+   bottom: 0px;
+}
+figcaption > a {
+  font-family: Lato, sans-serif;
+  text-decoration:none;
+}
+a:visited {
+  color: black;
+}
